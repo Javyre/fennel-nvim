@@ -86,7 +86,7 @@ FENNEL PATHS 						*fennel-paths*
 *fennel.path*						*fennel-runtimepath*
 	The same way neovim automatically updates `package.path` with values
 	from `runtimepath`, fennel-nvim will check for changes to
-	`package.path` and update *fennel.path* with transformed equivalents.
+	`package.path` and update `fennel.path` with transformed equivalents.
 	Paths ending in `.lua` will be translated to `.fnl`
 	`lua/?.lua` to `fnl/?.fnl`, and `lua/?/init.lua` to `fnl/?/init.fnl`.
 
